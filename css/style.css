@@ -1,0 +1,34 @@
+body {
+  background-image: url("../bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  
+}
+
+.message-box {
+  height: 700px;
+  border-radius: 15px;
+  overflow-y: scroll; 
+}
+
+.message {
+  background-color: rgb(160, 160, 160);
+  border: 10px rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.786);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  max-width: 55%;
+  font-weight: 700;
+  overflow-x: scroll;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+.right {
+  float: right;
+  clear: both;
+}
